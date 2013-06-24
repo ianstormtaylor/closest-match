@@ -30,7 +30,7 @@ function closest (string, matches) {
     }
   }
 
-  if (distance >= threshold) return false;
+  if (distance > threshold) return false;
   return match;
 }
 
