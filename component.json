@@ -1,0 +1,15 @@
+{
+  "name": "closest-match",
+  "repo": "segmentio/closest-match",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Find the closest match for a string from an array of matches, using string distance.",
+  "keywords": ["string", "distance", "match", "closest", "correct"],
+  "dependencies": {
+    "timoxley/sift": "*"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "scripts": ["index.js"]
+}
