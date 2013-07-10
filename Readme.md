@@ -5,7 +5,7 @@
 
 ## Installation
 
-    $ component install segmentio/closest-match
+    $ component install ianstormtaylor/closest-match
 
 ## Example
     
