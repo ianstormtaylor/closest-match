@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 var sift = require('sift');
 
 
@@ -23,7 +23,7 @@ function closest (string, matches) {
   var distance, match;
   for (var i = 0, candidate; candidate = matches[i]; i++) {
     if (string === candidate) return string;
-    var measurement = distancer(string, candidate);
+    var measurement = distancer(string, candidate.split(''));
     if (!distance || measurement < distance) {
       distance = measurement;
       match = candidate;
